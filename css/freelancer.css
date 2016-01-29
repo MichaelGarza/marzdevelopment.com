@@ -163,13 +163,9 @@ section.first {
    padding-top: 75px;
 }
 
-.marz-logo {
-    border-radius: 50%;
-}
-
-.marz-logo:hover {
-    transform: scale(1.05) ;
-    transition: .2s ease-out;
+svg {
+    width: 150px;
+    padding-bottom: 20px
 }
 
 #portfolio {
@@ -353,19 +349,13 @@ footer .footer-below {
     padding-top: 10px;
 }
 
-.trust-logo a {
-    color: #ffffff;
+.copyright a {
+   text-decoration: none;
+   color: #18bc9c;
 }
 
-.trust-logo a:hover {
-    text-decoration: none;
-    color: #18bc9c;
-}
-
-.trust-logo h4 { 
-    margin: 0;
-    padding-top: 5px;
-    padding-right: 14px
+.copyright a:hover {
+   color: #ffffff;
 }
 
 .btn-social {
@@ -505,6 +495,10 @@ footer .footer-below {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+    
+    svg {
+        width: 175px;
     }
     
    #portfolio .portfolio-item {
